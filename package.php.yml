@@ -1,0 +1,9 @@
+name: mango-jwt-ext
+version: 1.0.0
+description: extension for working with JWT tokens
+deps:
+   jphp-runtime: '*'
+
+plugins:
+   - Gradle
+
