@@ -49,7 +49,7 @@ public class JWT extends BaseObject {
     }
 
     @Reflection.Signature
-    public boolean isTokenExpired(String key, String token) {
+    public static boolean isTokenExpired(String key, String token) {
         return extractExpiration(key, token).before(new Date());
     }
 
